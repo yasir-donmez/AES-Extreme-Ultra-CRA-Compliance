@@ -16,4 +16,4 @@ Bu depo, AES Group'un **AES Extreme Ultra** nesting CNC router makinesi için **
 
 ## Dizin Yapısı
 
-- `lab-reports/` – Lab föylerinin PDF dosyaları bu klasöre eklenecektir.
+- `lab-reports/` – Lab föy dosyaları bu klasöre konur.

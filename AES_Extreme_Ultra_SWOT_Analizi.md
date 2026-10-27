@@ -11,16 +11,16 @@ Bu SWOT analizi, **AES Group Ar-Ge ve Otomasyon Mühendisliği** gözüyle, firm
 ### 🟢 1. Güçlü Yönler (Strengths)
 
 1. **Donanımsal Mekanik ve Eksen Dominasyonu:**
-   * Heavy-Duty Gantry gövde yapısı ile X ve Y eksenlerinde **80 m/dk** yüksek hareket hızı ve hassasiyeti [27, 28].
-   * 24.000 RPM HSK-F63 spindle ve esnek delik grubu (DH10–DH22) ile pazarın en geniş işleme kapasitesi [30, 32].
+   * Heavy-Duty Gantry gövde yapısı ile X ve Y eksenlerinde **80 m/dk** yüksek hareket hızı ve hassasiyeti.
+   * 24.000 RPM HSK-F63 spindle ve esnek delik grubu (DH10–DH22) ile pazarın en geniş işleme kapasitesi.
 2. **Bağımsız Emniyet Mimarisi (Functional Safety Isolation):**
-   * Fiziksel insan korumasının (Işık Perdesi + Kapak Kilitleri) doğrudan **Safety PLC → STO (Safe Torque Off)** hattı üzerinden yapılması [1, 17].
-   * Siber saldırı altında dahi fiziksel kilitlerin devre dışı kalmaması [13].
+   * Fiziksel insan korumasının (Işık Perdesi + Kapak Kilitleri) doğrudan **Safety PLC → STO (Safe Torque Off)** hattı üzerinden yapılması.
+   * Siber saldırı altında dahi fiziksel kilitlerin devre dışı kalmaması.
 3. **Pazar Liderliği ve Yüksek F/P Oranı:**
-   * Türkiye ve küresel pazarda modüler mobilya imalatçılarının en çok tercih ettiği lokomotif nesting modeli olması [21, 25].
+   * Türkiye ve küresel pazarda modüler mobilya imalatçılarının en çok tercih ettiği lokomotif nesting modeli olması.
 4. **Akıllı Vakum ve Proses Güvenliği:**
-   * 18 bağımsız bölgeli VacuBoost matris vakum tablası [35, 36].
-   * Ahşap tozu birikmesini önleyen ve E-Stop durumunda dahi çalışmaya devam eden **Koşullu Safe State** talaş emiş havalandırması (ATEX Zone 22 koruması) [17, 55].
+   * 18 bağımsız bölgeli VacuBoost matris vakum tablası.
+   * Ahşap tozu birikmesini önleyen ve E-Stop durumunda dahi çalışmaya devam eden **Koşullu Safe State** talaş emiş havalandırması (ATEX Zone 22 koruması).
 
 ---
 

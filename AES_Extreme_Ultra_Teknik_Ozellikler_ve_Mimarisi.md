@@ -3,12 +3,12 @@
 
 ---
 
-### 📌 1. Genel Tanım ve Ürün Konumlandırması
+### 1. Genel Tanım ve Ürün Konumlandırması
 **AES Extreme Ultra**, AES Group'un ahşap, kompozit, plastik ve alüminyum panellerin işlenmesi için geliştirdiği, esnek üretim imkânı sunan yüksek hassasiyetli CNC Nesting ve Delik işleme hattıdır. Fiyat/performans oranı, sağlam gantry gövde yapısı ve modüler otomasyon opsiyonlarıyla ahşap işleme ve mobilya imalat sektöründe en çok tercih edilen lokomotif modellerden biridir.
 
 ---
 
-### ⚙️ 2. Mekanik Yapı ve Eksen Performansı
+### 2. Mekanik Yapı ve Eksen Performansı
 * **Gövde Mimarisi:** Yüksek rijitliğe sahip **Gantry Design** (Köprülü gantry yapı).
 * **Çalışma Alanı Opsiyonları (Workfields):**
   * Genişlik (Y): 1300 mm, 1600 mm, 2100 mm.
@@ -25,7 +25,7 @@
 
 ---
 
-### 🪓 3. Spindle Motoru, Takım Değiştirme ve Delik Grubu
+### 3. Spindle Motoru, Takım Değiştirme ve Delik Grubu
 * **Spindle Motor Seçenekleri:**
   * Seramik rulmanlı, hava veya sıvı soğutmalı seçenekler:
     * **9 kW (12 HP), HSK-F63** (24.000 RPM)
@@ -46,7 +46,7 @@
 
 ---
 
-### 🌪️ 4. Vakum Tablası ve Talaş Emiş / ATEX Sistemleri
+### 4. Vakum Tablası ve Talaş Emiş / ATEX Sistemleri
 * **High Flow Matrix Grid Tabla:**
   * Aşınmaya dayanıklı HPL (High Pressure Laminate) malzeme, 30x30 mm ızgara yapısı.
   * Parça boyutuna göre **18 bağımsız vakum bölgesine** kadar otomatik bölünebilir yapı.
@@ -59,14 +59,14 @@
 
 ---
 
-### 🤖 5. Otomasyon Hat Opsiyonları (Extreme Ultra Line)
+### 5. Otomasyon Hat Opsiyonları (Extreme Ultra Line)
 * **Otomatik Besleme:** Hidrolik kaldırma tablası ve vakumlu vantuz tutucu yükleme ünitesi.
 * **Otomatik Boşaltma:** Kesim sonrası parçaları ve tozu süpüren pushed-off itici ve temizleme ünitesi.
 * **Çıkış Konveyörü:** İşlenen parçaları operatöre taşıyan bant sistemi ve entegre barkod/etiket yazıcısı.
 
 ---
 
-### 💻 6. Kontrol, Yazılım ve OT Ağ Mimarisi
+### 6. Kontrol, Yazılım ve OT Ağ Mimarisi
 * **CNC Kontrolör:** Osai CNC Kontrol / AES PLC Eksen Kontrolü.
 * **Operatör Arayüzü (HMI):**
   * Elektrik panosuna entegre 21" Dokunmatik Renkli Ekran veya Hareketli Mobil Konsol.
@@ -79,7 +79,7 @@
 
 ---
 
-### 🛡️ 7. Emniyet ve Siber Güvenlik Mimarisi (Safety 4.0 / IEC 62443 / AB 2023/1230)
+### 7. Emniyet ve Siber Güvenlik Mimarisi (Safety 4.0 / IEC 62443 / AB 2023/1230)
 * **Fiziksel Emniyet Donanımları:**
   * Işık perdeleri (Light Curtains), Alan Tarayıcılar (Area Scanners) ve emniyet kilitli kapılar.
   * Sensörlü referans dayama silindirleri.

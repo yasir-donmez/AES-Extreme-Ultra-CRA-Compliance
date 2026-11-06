@@ -3,12 +3,12 @@
 
 ---
 
-### 📌 Giriş ve Stratejik Çerçeve
+### Giriş ve Stratejik Çerçeve
 Bu SWOT analizi, **AES Group Ar-Ge ve Otomasyon Mühendisliği** gözüyle, firmanın lokomotif modeli olan **AES Extreme Ultra** CNC Nesting hattının mekanik gücünü, emniyet mimarisini (Safety 4.0), AB Makine Tüzüğü (EU 2023/1230) ve Siber Dayanıklılık Yasası (CRA) uyumluluğunu değerlendirmek amacıyla hazırlanmıştır.
 
 ---
 
-### 🟢 1. Güçlü Yönler (Strengths)
+### 1. Güçlü Yönler (Strengths)
 
 1. **Donanımsal Mekanik ve Eksen Dominasyonu:**
    * Heavy-Duty Gantry gövde yapısı ile X ve Y eksenlerinde **80 m/dk** yüksek hareket hızı ve hassasiyeti.
@@ -24,7 +24,7 @@ Bu SWOT analizi, **AES Group Ar-Ge ve Otomasyon Mühendisliği** gözüyle, firm
 
 ---
 
-### 🔴 2. Zayıf Yönler (Weaknesses)
+### 2. Zayıf Yönler (Weaknesses)
 
 1. **Genişletilmiş Siber Saldırı Yüzeyi (Attack Surface):**
    * Uzak bakım router'ları (Secomea / Ewon), Cad/Cam yazılım entegrasyonu (Alphacam / NC Hops) ve Otomatik Etiketleme (Label X) nedeniyle siber giriş noktalarının fazlalığı.
@@ -35,7 +35,7 @@ Bu SWOT analizi, **AES Group Ar-Ge ve Otomasyon Mühendisliği** gözüyle, firm
 
 ---
 
-### 🟡 3. Fırsatlar (Opportunities)
+### 3. Fırsatlar (Opportunities)
 
 1. **AB Mevzuat Uyumu ile İhracat Avantajı:**
    * AB Makine Tüzüğü (2023/1230) ve CRA gereksinimlerine göre hazırlanan **Denetim Kanıt Paketi (Evidence Pack)** sayesinde Avrupa pazarındaki rakiplere karşı belirgin üstünlük sağlama.
@@ -46,7 +46,7 @@ Bu SWOT analizi, **AES Group Ar-Ge ve Otomasyon Mühendisliği** gözüyle, firm
 
 ---
 
-### 🟠 4. Tehditler (Threats)
+### 4. Tehditler (Threats)
 
 1. **Tedarik Zinciri ve Firmware Saldırıları:**
    * İkinci taraf VFD sürücülere veya PLC bileşenlerine imzasız/virüslü firmware enjekte edilerek üretim hattının durdurulması veya kilitlenmesi.

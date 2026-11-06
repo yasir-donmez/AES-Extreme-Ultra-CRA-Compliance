@@ -1,5 +1,6 @@
 # AES Extreme Ultra CNC Nesting & Delik Otomasyon Hattı
 ## LAB 1 · Safety Architecture (Emniyet Mimarisi) — Özel Çözüm Föyü
+**Hazırlayan:** Yasir Dönmez – 250541120  
 
 ---
 

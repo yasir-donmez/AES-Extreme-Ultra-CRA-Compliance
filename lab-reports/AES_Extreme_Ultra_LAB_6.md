@@ -1,13 +1,13 @@
 # AES Extreme Ultra CNC Nesting & Delik Otomasyon Hattı
 ## LAB 6 · CRA Incident Simulation & Olay Müdahale Prosedürü (Özel Çözüm Föyü)
 
-**Raporu Hazırlayan:** AES Group Ar-Ge ve Otomasyon Mühendisliği Ekibi (İmalatçı Perspektifi)  
+**Hazırlayan:** Yasir Dönmez – 250541120  
 **Çıktı:** Incident Workflow (Evidence Pack EP 13 Incident Response)  
 **Mevzuat ve Standart Hizalaması:** AB Siber Dayanıklılık Yasası (CRA - EU 2024/2847 Madde 11), AB Makine Tüzüğü (2023/1230 Ek III 1.1.9), ISO/IEC 27035, NIST SP 800-61  
 
 ---
 
-### 📌 1. Olay Senaryosu ve Bağlam
+### 1. Olay Senaryosu ve Bağlam
 * **Tarih / Saat:** 12 Ekim 2026, Saat 10:15.  
 * **Olay Tanımı:** AES Extreme Ultra CNC Nesting hattının fabrikadaki Secomea SiteManager 3329 Uzak Bakım Gateway'i üzerinde yetkisiz bir dış IP adresinden aktif oturum açıldığı ve Osai CNC Hareket Kontrolörünün interpolasyon ve Gantry köprü ivmelenme parametrelerinin değiştirilmeye çalışıldığı tespit edilmiştir.  
 * **Makine Durumu:** Makine aktif olarak 24.000 RPM Spindle ile MDF plaka kesmektedir. Vardiya sorumlusu tedirgin durumdadır.  
@@ -15,7 +15,7 @@
 
 ---
 
-### ⏱️ 2. Zaman Çizelgesi ve Müdahale Adımları (Incident Workflow)
+### 2. Zaman Çizelgesi ve Müdahale Adımları (Incident Workflow)
 
 #### **1. 10:15 — İlk 15 Dakika (İlk Müdahale & Triyaj)**
 * **Kimi Ararsınız?:**
@@ -57,6 +57,6 @@
 
 ---
 
-### 📋 3. Görev Özeti ve Kanıt Hizalaması
+### 3. Görev Özeti ve Kanıt Hizalaması
 * **Üretilen Çıktı:** *Incident Workflow & CRA Notification Matrix*
 * **Kanıt Paketi Karşılığı:** **Evidence Pack EP 13 Incident Response**

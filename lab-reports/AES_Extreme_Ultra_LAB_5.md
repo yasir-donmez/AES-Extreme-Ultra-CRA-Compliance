@@ -1,18 +1,18 @@
 # AES Extreme Ultra CNC Nesting & Delik Otomasyon Hattı
 ## LAB 5 · Zafiyet, Yazılım Envanteri (SBOM) ve Yama Yönetimi
-**Raporu Hazırlayan:** AES Group Ar-Ge ve Otomasyon Mühendisliği Ekibi (İmalatçı Perspektifi)  
+**Hazırlayan:** Yasir Dönmez – 250541120  
 **Mevzuat ve Standart Hizalaması:** AB Siber Dayanıklılık Yasası (CRA - EU 2024/2847), AB Makine Tüzüğü (2023/1230), IEC 62443-4-1 / IEC 62443-4-2
 
 ---
 
-### 📌 1. Giriş ve İmalatçı Yaklaşımı
+### 1. Giriş ve İmalatçı Yaklaşımı
 Bu döküman, AES Group tarafından üretilen **AES Extreme Ultra CNC Nesting & Delik Otomasyon Hattı** üzerinde çalışan tüm gömülü yazılımlar, işletim sistemleri, kontrolör derlemeleri ve dikey entegrasyon yazılımlarının **Yazılım Envanterini (SBOM - Software Bill of Materials)** ve bunlara bağlı **Zafiyet / Yama Yönetim Protokolünü** içerir. 
 
 Dışarıdan bir üçüncü taraf gözüyle jenerik "PLC" veya "PC" tanımları yerine; AES Ar-Ge ekibimizin hatta entegre ettiği donanım mimarileri, firma sürümleri, protokol portları ve bilinen güvenlik zafiyetleri (CVE) en ince detayına kadar dokümante edilmiştir.
 
 ---
 
-### 📦 2. Bileşen Bazlı Detaylı Yazılım Envanteri (SBOM)
+### 2. Bileşen Bazlı Detaylı Yazılım Envanteri (SBOM)
 
 AES Extreme Ultra otomasyon mimarisi 6 ana dijital katmandan oluşmaktadır:
 
@@ -27,7 +27,7 @@ AES Extreme Ultra otomasyon mimarisi 6 ana dijital katmandan oluşmaktadır:
 
 ---
 
-### 🔍 3. Gerçek CVE Zafiyet Analizi ve Risk Eşleştirmesi
+### 3. Gerçek CVE Zafiyet Analizi ve Risk Eşleştirmesi
 
 AES Extreme Ultra üzerinde kullanılan endüstriyel bileşenlerin küresel zafiyet veri tabanlarındaki (NVD / CISA KEV) bilinen zafiyetleri ve makine üzerindeki fiziki etkileri aşağıda analiz edilmiştir:
 
@@ -53,7 +53,7 @@ AES Extreme Ultra üzerinde kullanılan endüstriyel bileşenlerin küresel zafi
 
 ---
 
-### 🛡️ 4. Zafiyet Karar Logu ve Tazmin Edici Kontroller (Patch vs. Mitigation)
+### 4. Zafiyet Karar Logu ve Tazmin Edici Kontroller (Patch vs. Mitigation)
 
 Endüstriyel makine üreticisi (AES Group) olarak bir zafiyet tespit edildiğinde **doğrudan yama atmak (Direct Patching)** her zaman mümkün değildir. Çünkü CNC hareket kontrolörü veya Safety PLC yazılımına yapılan bir yama, makinenin **CE sertifikasyonunu, ISO 13849-1 PLd doğrulamasını ve eksen interpolasyon hassasiyetini** bozabilir.
 
@@ -68,7 +68,7 @@ Bu nedenle AES Ar-Ge ekibimiz **3 Aşamalı Zafiyet Karar Mekanizması** uygular
 
 ---
 
-### 📜 5. AB Siber Dayanıklılık Yasası (CRA) İmalatçı Yükümlülükleri (Madde 10 & 11)
+### 5. AB Siber Dayanıklılık Yasası (CRA) İmalatçı Yükümlülükleri (Madde 10 & 11)
 
 AES Group olarak, AB pazarına ihraç edilen **AES Extreme Ultra** makinelerinde CRA (EU 2024/2847) uyarınca aşağıdaki yasal imalatçı süreçleri yürütülmektedir:
 

@@ -1,23 +1,23 @@
 # AES Extreme Ultra CNC Nesting & Delik Otomasyon Hattı
 ## LAB 7 · AI Safety Challenge & Yapay Zekâ Güvenişim Mimarisi (Özel Çözüm Föyü)
 
-**Raporu Hazırlayan:** AES Group Ar-Ge ve Otomasyon Mühendisliği Ekibi (İmalatçı Perspektifi)  
+**Hazırlayan:** Yasir Dönmez – 250541120  
 **Çıktı:** AI Fail-Safe Decision (Evidence Pack EP 15 Verification/Test & AI Governance)  
 **Mevzuat ve Standart Hizalaması:** AB Yapay Zekâ Yasası (EU AI Act - High-Risk Industrial AI), ISO/IEC 42001 (AI Management System), ISO 13849-1, IEC 61508  
 
 ---
 
-### 📌 1. Temel İlke: Prediction ≠ Safety (Tahmin Emniyet Değildir)
+### 1. Temel İlke: Prediction ≠ Safety (Tahmin Emniyet Değildir)
 Yapay zekâ (AI/ML) modelleri veri üzerinden **olasılık ve tahmin** üretir (Plaka nesting verimliliği, Akıllı Talaş Emiş Debisi, Kamera Tabanlı Plaka Hizalama, Kestirimci Spindle Titreşim Analizi). **Emniyeti garanti eden mimari ise YZ'nin DIŞINDA, bağımsız ve deterministik donanımda (Safety PLC + STO) tanımlanmalıdır!**
 
 ---
 
-### 🔄 2. Sistem Mimarisi ve Veri Akışı
+### 2. Sistem Mimarisi ve Veri Akışı
 `KaVision Optik Kamera / Titreşim Sensörü` → `AES AI Optimizasyon Servisi (IPC)` → `OK / RED / Parametre` → `Osai CNC Motion Controller` → `Spindle Motor & Servo Sürücüler (STO Korumalı)`
 
 ---
 
-### 🛠️ 3. Üç Başarısızlık Senaryosunda Güvenli Davranış (AI Fail-Safe Decisions)
+### 3. Üç Başarısızlık Senaryosunda Güvenli Davranış (AI Fail-Safe Decisions)
 
 #### **1. Senaryo 1 — Model Yanlış Sınıflandırdı (False Positive / False Negative)**
 * **Olay:** Yapay zekâlı görsel malzeme analiz modeli, MDF plakanın kalınlığını ve sertliğini yanlış algılayarak Spindle ilerleme hızını (Feed Rate) 80 m/dk seviyesine ve kesim torkunu aşırı yüksek seviyeye çıkardı.
@@ -39,7 +39,7 @@ Yapay zekâ (AI/ML) modelleri veri üzerinden **olasılık ve tahmin** üretir (
 
 ---
 
-### 📊 4. AI Fail-Safe Decision Karar Tablosu
+### 4. AI Fail-Safe Decision Karar Tablosu
 
 | Başarısızlık Modu | Kök Neden / Risk | Tanımlanan Güvenli Davranış | Uygulanan Güvenişim Kavramı |
 | :--- | :--- | :--- | :--- |
@@ -49,6 +49,6 @@ Yapay zekâ (AI/ML) modelleri veri üzerinden **olasılık ve tahmin** üretir (
 
 ---
 
-### 📋 5. Görev Özeti ve Kanıt Hizalaması
+### 5. Görev Özeti ve Kanıt Hizalaması
 * **Üretilen Çıktı:** *AI Fail-Safe Decision Matrix & AI Governance Log*
 * **Kanıt Paketi Karşılığı:** **Evidence Pack EP 15 Verification/Test & AI Governance**

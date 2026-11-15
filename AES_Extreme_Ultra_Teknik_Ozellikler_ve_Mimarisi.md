@@ -20,7 +20,7 @@
   * Z-Ekseni: **20 m/dk**
 * **Gövde Koruması & Yağlama:**
   * Otomatik Merkezi Yağlama Sistemi (Sürtünmeyi azaltır, arızayı önler).
-  * Kapalı Kablo Kanalları (Aggresif ahşap tozlarına ve çapaklara karşı elektronik kabloları korur).
+  * Kapalı Kablo Kanalları (Agresif ahşap tozlarına ve çapaklara karşı elektronik kabloları korur).
   * Rulman ve kızaklarda ek toz sızdırmazlık contaları.
 
 ---
@@ -61,7 +61,7 @@
 
 ### 5. Otomasyon Hat Opsiyonları (Extreme Ultra Line)
 * **Otomatik Besleme:** Hidrolik kaldırma tablası ve vakumlu vantuz tutucu yükleme ünitesi.
-* **Otomatik Boşaltma:** Kesim sonrası parçaları ve tozu süpüren pushed-off itici ve temizleme ünitesi.
+* **Otomatik Boşaltma:** Kesim sonrası parçaları ve tozu süpüren itici (push-off) ve temizleme ünitesi.
 * **Çıkış Konveyörü:** İşlenen parçaları operatöre taşıyan bant sistemi ve entegre barkod/etiket yazıcısı.
 
 ---
@@ -90,6 +90,3 @@
 * **Siber Güvenlik & Ağ Mimarisi:**
   * **Uzak Bakım Gateway:** Secomea / Ewon endüstriyel router üzerinden VPN + MFA + Jump Server korumalı güvenli uzak erişim.
   * **Ağ Bölgeleme (IEC 62443):** Safety PLC en izole bölgede (Safety Zone) yer alır; HMI ve uzaktan erişim hatları güvenlik duvarı (Firewall) ile ayrılmıştır.
-
----
-*Bu teknik doküman, AES Extreme Ultra kaynakları ve Safety 4.0 çerçevesi esas alınarak derlenmiştir.*

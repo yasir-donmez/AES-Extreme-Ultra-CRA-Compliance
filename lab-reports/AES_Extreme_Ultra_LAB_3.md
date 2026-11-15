@@ -1,5 +1,6 @@
 # AES Extreme Ultra CNC Nesting & Delik Otomasyon Hattı
-## LAB 3 · Threat & Risk Register (Risk Kaydı) — Özel Çözüm Föyü
+## LAB 3 · Threat & Risk Register (Risk Kaydı)
+
 **Hazırlayan:** Yasir Dönmez – 250541120  
 
 ---
@@ -18,5 +19,5 @@
 
 ### **Görev Soruları Yanıtları**
 
-1. **En Yüksek Öncelikli Senaryo:** **1. Senaryodur (Skor: 27 - Kritik).** Çünkü internete açık kapıdan Safety PLC konfigürasyonunun bozulması hem en kolay (L=3, E=3) hem de uzuv kaybına (S=3) yol açan en tehlikeli yoldur.
+1. **En Yüksek Öncelikli Senaryo:** **1. Senaryodur (Skor: 27 — Kritik).** Çünkü internete açık kapıdan Safety PLC konfigürasyonunun bozulması hem en kolay (L=3, E=3) hem de uzuv kaybına (S=3) yol açan en tehlikeli yoldur.
 2. **S=3 İstisnası:** **Evet, 3. Senaryodur (Skor: 3).** Skoru düşük (L=1, E=1) kalsa da ağır yaralanma (S=3) riski taşıdığından "S=3 Kuralı" gereği risk kaydında yüksek öncelikli emniyet bulgusu olarak öne çıkarılır.

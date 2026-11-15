@@ -1,9 +1,9 @@
 # AES Extreme Ultra CNC Nesting & Delik Otomasyon Hattı
-## LAB 7 · AI Safety Challenge & Yapay Zekâ Güvenişim Mimarisi (Özel Çözüm Föyü)
+## LAB 7 · AI Safety Challenge & Yapay Zekâ Güvenlik Mimarisi
 
 **Hazırlayan:** Yasir Dönmez – 250541120  
 **Çıktı:** AI Fail-Safe Decision (Evidence Pack EP 15 Verification/Test & AI Governance)  
-**Mevzuat ve Standart Hizalaması:** AB Yapay Zekâ Yasası (EU AI Act - High-Risk Industrial AI), ISO/IEC 42001 (AI Management System), ISO 13849-1, IEC 61508  
+**Mevzuat ve Standart Hizalaması:** AB Yapay Zekâ Yasası (EU 2024/1689, Madde 6(1) ve Ek I - Makine emniyet bileşeni olarak yüksek riskli YZ), ISO/IEC 42001 (AI Management System), ISO 13849-1, IEC 61508  
 
 ---
 
@@ -41,14 +41,8 @@ Yapay zekâ (AI/ML) modelleri veri üzerinden **olasılık ve tahmin** üretir (
 
 ### 4. AI Fail-Safe Decision Karar Tablosu
 
-| Başarısızlık Modu | Kök Neden / Risk | Tanımlanan Güvenli Davranış | Uygulanan Güvenişim Kavramı |
+| Başarısızlık Modu | Kök Neden / Risk | Tanımlanan Güvenli Davranış | Uygulanan Güvenlik Kavramı |
 | :--- | :--- | :--- | :--- |
 | **Yanlış Sınıflandırma** | YZ aşırı hız/tork üretti | Osai CNC Hard-Limit ve VFD Tork Sınırı devreye girer | **Deterministic Boundary & Hard-Limit** |
 | **Girdi Manipülasyonu** | Lens kirliliği / Bozuk sensör | YZ devre dışı bırakılır, talaş emiş %100 fan gücüne geçer | **Input Plausibility & ATEX Safe Fallback** |
 | **Düşük Confidence (%62 < %85)** | Model kararsızlığı | Hız %50'ye düşer, HMI'da insan onayı beklenir | **Confidence Threshold & Human-in-the-Loop** |
-
----
-
-### 5. Görev Özeti ve Kanıt Hizalaması
-* **Üretilen Çıktı:** *AI Fail-Safe Decision Matrix & AI Governance Log*
-* **Kanıt Paketi Karşılığı:** **Evidence Pack EP 15 Verification/Test & AI Governance**

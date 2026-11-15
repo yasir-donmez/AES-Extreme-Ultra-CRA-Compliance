@@ -1,10 +1,10 @@
 # AES Extreme Ultra CNC Nesting & Delik Otomasyon Hattı
-## Siber-Fiziksel SWOT Analizi (İmalatçı / AES Group Ar-Ge Perspektifi)
+## Siber-Fiziksel SWOT Analizi
 
 ---
 
-### Giriş ve Stratejik Çerçeve
-Bu SWOT analizi, **AES Group Ar-Ge ve Otomasyon Mühendisliği** gözüyle, firmanın lokomotif modeli olan **AES Extreme Ultra** CNC Nesting hattının mekanik gücünü, emniyet mimarisini (Safety 4.0), AB Makine Tüzüğü (EU 2023/1230) ve Siber Dayanıklılık Yasası (CRA) uyumluluğunu değerlendirmek amacıyla hazırlanmıştır.
+### Giriş ve Kapsam
+Bu analizde, AES Group'un lokomotif modeli olan **AES Extreme Ultra** CNC Nesting hattının mekanik gücünü, emniyet mimarisini (Safety 4.0), AB Makine Tüzüğü (EU 2023/1230) ve Siber Dayanıklılık Yasası (CRA) uyumluluğunu değerlendirmek amacıyla hazırlanmıştır.
 
 ---
 
@@ -27,7 +27,7 @@ Bu SWOT analizi, **AES Group Ar-Ge ve Otomasyon Mühendisliği** gözüyle, firm
 ### 2. Zayıf Yönler (Weaknesses)
 
 1. **Genişletilmiş Siber Saldırı Yüzeyi (Attack Surface):**
-   * Uzak bakım router'ları (Secomea / Ewon), Cad/Cam yazılım entegrasyonu (Alphacam / NC Hops) ve Otomatik Etiketleme (Label X) nedeniyle siber giriş noktalarının fazlalığı.
+   * Uzak bakım router'ları (Secomea / Ewon), CAD/CAM yazılım entegrasyonu (Alphacam / NC Hops) ve Otomatik Etiketleme (Label X) nedeniyle siber giriş noktalarının fazlalığı.
 2. **Eski/Lokal Ağ Protokolü Bağımlılıkları:**
    * Saha içi HMI iletişiminde ve servis arayüzlerinde kullanılan şifresiz HTTP (port 80) veya varsayılan VNC bağlantılarının varlığı.
 3. **Yama Yönetimi Karmaşıklığı (Patch Friction):**

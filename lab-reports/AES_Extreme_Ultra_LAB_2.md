@@ -1,5 +1,6 @@
 # AES Extreme Ultra CNC Nesting & Delik Otomasyon Hattı
-## LAB 2 · IEC 62443 Zone & Conduit (Ağ Bölgeleme) — Özel Çözüm Föyü
+## LAB 2 · IEC 62443 Zone & Conduit (Ağ Bölgeleme)
+
 **Hazırlayan:** Yasir Dönmez – 250541120  
 
 ---
@@ -32,4 +33,4 @@
 | **Kimlik?** | Parola / MFA | **MFA:** Parola çalınmasına karşı çok faktörlü doğrulama zorunludur. |
 | **Hesap?** | Paylaşılan / Kişisel | **Kişisel hesap:** Ortak admin hesabı kapatılır; bireysel izlenebilirlik sağlanır. |
 | **Kayıt?** | Yok / Tam oturum kaydı | **Tam oturum kaydı:** Olay incelemesi ve adli analiz için tüm işlemler kaydedilir. |
-| **Zamanlama?**| Sürekli açık / Varsayılan kapalı | **Varsayılan kapalı:** Bağlantı sürekli değil, sadece onaylı bakım süresince açılır. |
+| **Zamanlama?** | Sürekli açık / Varsayılan kapalı | **Varsayılan kapalı:** Bağlantı sürekli değil, sadece onaylı bakım süresince açılır. |

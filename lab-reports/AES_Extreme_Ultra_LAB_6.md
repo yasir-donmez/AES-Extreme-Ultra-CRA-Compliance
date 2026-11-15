@@ -1,9 +1,9 @@
 # AES Extreme Ultra CNC Nesting & Delik Otomasyon Hattı
-## LAB 6 · CRA Incident Simulation & Olay Müdahale Prosedürü (Özel Çözüm Föyü)
+## LAB 6 · CRA Incident Simulation & Olay Müdahale Prosedürü
 
 **Hazırlayan:** Yasir Dönmez – 250541120  
 **Çıktı:** Incident Workflow (Evidence Pack EP 13 Incident Response)  
-**Mevzuat ve Standart Hizalaması:** AB Siber Dayanıklılık Yasası (CRA - EU 2024/2847 Madde 11), AB Makine Tüzüğü (2023/1230 Ek III 1.1.9), ISO/IEC 27035, NIST SP 800-61  
+**Mevzuat ve Standart Hizalaması:** AB Siber Dayanıklılık Yasası (CRA - EU 2024/2847 Madde 14), AB Makine Tüzüğü (2023/1230 Ek III 1.1.9 ve 1.2.1), ISO/IEC 27035, NIST SP 800-61  
 
 ---
 
@@ -35,28 +35,23 @@
 * **Hangi Hesap Kapatılır?:** Zafiyet tespit edilen varsayılan servis hesabı ve Secomea üzerindeki tüm aktif VPN kullanıcı oturumları anında revoke edilir.
 
 #### **3. 24 Saat — CRA Erken Uyarı Bildirimi (Early Warning Notification)**
-* **Kapsam:** AB Siber Dayanıklılık Yasası (CRA EU 2024/2847 Madde 11) uyarınca ENISA'ya ve yetkili CSIRT makamına yapılan ilk resmi bildirimdir.
+* **Kapsam:** AB Siber Dayanıklılık Yasası (CRA EU 2024/2847 Madde 14) uyarınca koordinatör CSIRT'e ve ENISA'ya (Tek Raporlama Platformu üzerinden) yapılan ilk resmi bildirimdir.
 * **Hazır Olması Gereken Bilgiler:**
   * İmalatçı ve Ürün Bilgisi: AES Group — AES Extreme Ultra v4.2 CNC Line.
   * Olay Türü: Yetkisiz Dış Erişim & CNC Hareket Parametresi Manipülasyon Girişimi.
   * Tespit Zamanı: 12 Ekim 2026, 10:15.
   * İlk Etki ve Durum: STO ile makine emniyete alındı, fiziksel yaralanma oluşmadı, dış ağ izolasyonu sağlandı.
 
-#### **4. 72 Saat — CRA Detaylı Olay Bildirimi (Incident Notification)**
+#### **4. 72 Saat — CRA Detaylı Bildirim (Vulnerability / Incident Notification)**
 * **Hazır Olması Gereken Bilgiler:**
-  * **Kök Neden Analizi:** Secomea Gateway firmware'indeki güncellenmemiş CVE-2020-14500 zafiyeti üzerinden yetkisiz oturum elde edildiği anlaşılmıştır.
+  * **Kök Neden Analizi:** Secomea Gateway tarafındaki yamalanmamış bir zafiyet üzerinden yetkisiz oturum elde edildiği anlaşılmıştır (kesin CVE, adli analiz sonunda belirlenir).
   * **Etki Değerlendirmesi:** Safety PLC bağımsızlığı sayesinde operatör yaralanması engellenmiştir. Osai CNC interpolasyon parametrelerinde hafif sapma tespit edilmiştir.
   * **Alınan Önlemler:** İzolasyon bölgesinde yama testi tamamlanmış, IP Whitelisting ve Jump Server zorunluluğu aktif edilmiştir.
 
 #### **5. 14 Gün — CRA Nihai Rapor (Final Report & Audit Trail)**
+* **Kapsam:** Aktif istismar edilen zafiyetlerde nihai rapor, düzeltici veya azaltıcı önlem kullanıma sunulduktan sonra en geç 14 gün içinde; ciddi olaylarda ise olay bildiriminden sonra en geç 1 ay içinde sunulur (CRA Madde 14).
 * **Korunmuş Kayıtlar ve Dokümantasyon:**
   * Adli analiz raporu ve kriptografik olarak imzalanmış syslog kayıtları.
   * TIA Portal Safety checksum doğrulama belgesi.
   * Güncellenmiş Secomea Firmware v9.6 doğrulama testi raporu.
 * **Süreç Kapanışı:** Tüm etkilenen makinelerde telafi edici kontroller uygulanmış, Risk Register (Evidence Pack EP 04) ve Olay Müdahale Planı (EP 13) güncellenmiştir.
-
----
-
-### 3. Görev Özeti ve Kanıt Hizalaması
-* **Üretilen Çıktı:** *Incident Workflow & CRA Notification Matrix*
-* **Kanıt Paketi Karşılığı:** **Evidence Pack EP 13 Incident Response**
